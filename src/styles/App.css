@@ -1,0 +1,61 @@
+.cc {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  /* transition: all 1s ease-in-out;  */
+}
+
+.cc :hover {
+  box-shadow: 2px 4px 25px 4px rgb(164, 162, 162);
+  transform: scale(1.03);
+}
+.card {
+  border-top-left-radius: 4.25rem;
+  transition: all 0.5s ease-in-out;
+}
+
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: calc(6.25rem - 40px);
+  border-top-right-radius: calc(-11.75rem - 0px);
+}
+.card-img:hover,
+.card-img-top:hover {
+  border-top-left-radius: calc(6.25rem - 40px);
+  border-top-right-radius: calc(-11.75rem - 0px);
+  box-shadow: 0px 0px 0px 0px grey;
+  transform: scale(1);
+
+  /* border: 2px solid red; */
+}
+
+.card-title {
+  font-size: 1rem;
+}
+.card-title:hover {
+  font-size: 1rem;
+  box-shadow: 0px 0px 0px 0px grey;
+  transform: scale(1);
+}
+
+.card-text {
+  font-size: 14px;
+}
+.card-text:hover {
+  font-size: 14px;
+  box-shadow: 0px 0px 0px 0px grey;
+  transform: scale(1);
+}
+.rext-muted:hover {
+  box-shadow: 0px 0px 0px 0px grey;
+  transform: scale(1);
+}
+.read:hover {
+  box-shadow: 0px 0px 0px 0px grey;
+  transform: scale(1);
+}
